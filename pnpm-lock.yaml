@@ -1,13 +1,9 @@
 lockfileVersion: 5.4
 
 specifiers:
-  markdown-it-anchor: ^8.6.4
   sass: ^1.54.9
   vitepress: 1.0.0-alpha.9
   vue: ^3.2.38
-
-dependencies:
-  markdown-it-anchor: 8.6.4
 
 devDependencies:
   sass: 1.54.9
@@ -681,13 +677,6 @@ packages:
     dependencies:
       sourcemap-codec: 1.4.8
     dev: true
-
-  /markdown-it-anchor/8.6.4:
-    resolution: {integrity: sha512-Ul4YVYZNxMJYALpKtu+ZRdrryYt/GlQ5CK+4l1bp/gWXOG2QWElt6AqF3Mih/wfUKdZbNAZVXGR73/n6U/8img==}
-    peerDependencies:
-      '@types/markdown-it': '*'
-      markdown-it: '*'
-    dev: false
 
   /nanoid/3.3.4:
     resolution: {integrity: sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==}

@@ -1,18 +1,23 @@
 ---
-title: Docs with VitePress
-titleTemplate: Vite & Vue powered static site generator
-description: VitePress
-editLink: true
+
+# editlink: true
+
+# description: ''
+
+# aside: false
+
+# outline: 2
+
+title: 主页
+lastUpdated: false
+titleTemplate: adlkt 的博客主页
 head:
   - - meta
     - name: description
-      content: hello
+      content: vitePress 搭建的博客网站
   - - meta
     - name: keywords
-      content: super duper SEO
-lastUpdated: false
-aside: false
-
+      content: 博客，前端
 layout: home
 hero:
   name: VitePress
@@ -24,7 +29,7 @@ hero:
       link: /guide/what-is-vitepress
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/adlkt/vitepress
 features:
   - icon: ⚡️
     title: Vite, The DX that can't be beat
