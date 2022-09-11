@@ -8,7 +8,7 @@ export default defineConfig({
   description: "前端笔记",
   ignoreDeadLinks: true,
   lastUpdated: true,
-  // lang:"zh-cn",
+  lang:"zh-cn",
   outDir: '../dist',
   head: [
     ['link', { rel: 'icon', href: '/vite.svg' }]
