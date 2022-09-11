@@ -7,9 +7,8 @@ export default defineConfig({
   // titleTemplate:"",
   description: "前端笔记",
   ignoreDeadLinks: true,
-  // lastUpdated: true,
+  lastUpdated: true,
   // lang:"zh-cn",
-  // lastUpdated:true,
   outDir: '../dist',
   head: [
     ['link', { rel: 'icon', href: '/vite.svg' }]
@@ -26,10 +25,23 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/adlkt' },
     ],
     nav: [
-      { text: 'axios', link: '/axios' },
-      { text: '小黄鸭', link: '/duck' },
+      {
+        text: 'code',
+        items: [
+          { text: 'axios', link: '/code/axios' },
+          { text: '小黄鸭', link: '/code/duck' },
+        ]
+      },
+      {
+        text: "学习",
+        items: [
+          { text: '汤质看本质', link: 'https://space.bilibili.com/362588980/' },
+          { text: 'YJango', link: 'https://space.bilibili.com/344849038' },
+          { text: "modevol.com", link: "https://www.modevol.com/" }
+        ]
+      }
     ],
-    // sidebar:[],
+    sidebar: [],
     // outline: 2,
     // outlineTitle:''
     // footer: {},

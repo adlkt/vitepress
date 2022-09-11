@@ -25,8 +25,8 @@ hero:
   tagline: Lorem ipsum...
   actions:
     - theme: brand
-      text: Get Started
-      link: /guide/what-is-vitepress
+      text: site
+      link: https://adlkt.top
     - theme: alt
       text: View on GitHub
       link: https://github.com/adlkt/vitepress
