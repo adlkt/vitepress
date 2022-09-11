@@ -41,3 +41,10 @@ features:
     title: Simple and minimal, always
     details: Lorem ipsum...
 ---
+
+<style>
+  :root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #bd34fe, #41d1ff);
+}
+</style>

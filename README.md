@@ -1,1 +1,5 @@
 # Blog
+
+```
+./deploy.sh
+```
