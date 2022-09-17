@@ -18,10 +18,9 @@
       ]
     }
   },
-  "dependencies": {},
   "devDependencies": {
     "sass": "^1.54.9",
     "vitepress": "1.0.0-alpha.9",
-    "vue": "^3.2.38"
+    "vue": "^3.2.39"
   }
 }

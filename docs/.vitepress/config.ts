@@ -8,7 +8,7 @@ export default defineConfig({
   description: "前端笔记",
   ignoreDeadLinks: true,
   lastUpdated: true,
-  lang:"zh-cn",
+  lang: "zh-cn",
   outDir: '../dist',
   head: [
     ['link', { rel: 'icon', href: '/vite.svg' }]
@@ -37,7 +37,14 @@ export default defineConfig({
         items: [
           { text: '汤质看本质', link: 'https://space.bilibili.com/362588980/' },
           { text: 'YJango', link: 'https://space.bilibili.com/344849038' },
-          { text: "modevol.com", link: "https://www.modevol.com/" }
+          // { text: "modevol.com", link: "https://www.modevol.com/" },
+          { text: "Morpheus红丸主义", link: "https://space.bilibili.com/445634559" }
+        ]
+      },
+      {
+        text: "哲学之我见",
+        items: [
+          { text: "01", link: "/Philosophy.md" }
         ]
       }
     ],
